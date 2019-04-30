@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_final_new"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/startHint"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="380dp"
+        android:text="Stay focused for a while and get some carrots to feed your hungry bunny"
+        android:textColor="#FF631A"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="195dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:background="#FF8600"
+        android:clickable="true"
+        android:text="Enter"
+        android:textColor="#FFE5C7"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

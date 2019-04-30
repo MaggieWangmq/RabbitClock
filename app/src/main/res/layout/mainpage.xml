@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADE7FF"
+    android:orientation="vertical"
+    android:scrollbarStyle="outsideInset">
+
+
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:text="00:00:00"
+        android:textColor="#5697B3"
+        android:textSize="93sp" />
+
+    <EditText
+        android:id="@+id/setTime"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Minutes"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textColor="#5697B3"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:textSize="20sp" />
+
+    <Button
+        android:id="@+id/setButton"
+        android:layout_width="171dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="15dp"
+        android:background="#5697B3"
+        android:text="SET"
+        android:textColor="#FFD9AD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="171dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="20dp"
+        android:background="#5697B3"
+        android:text="Start"
+        android:textColor="#FFD9AD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/retryButton"
+        android:layout_width="171dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="120dp"
+        android:background="#5697B3"
+        android:text="RETRY"
+        android:textColor="#FFD9AD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/rabbitButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:background="#ADE7FF"
+        android:clickable="true"
+        app:srcCompat="@mipmap/buttonimage_final_low" />
+
+    <TextView
+        android:id="@+id/hintClick"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp"
+        android:text="Click me!"
+        android:textColor="#5697B3"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
